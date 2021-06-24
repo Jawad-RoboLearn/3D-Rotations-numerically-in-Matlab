@@ -1,4 +1,5 @@
 %rotation to euler angles
+% Written by Jawad Mehmood Butt
 
 function [phi,theta,psi] = rot2eul(R)
 
