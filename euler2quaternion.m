@@ -1,3 +1,5 @@
+% This function converts euler angles to quaternions
+% Written by Jawad Mehmood Butt
 function [qw,qx,qy,qz] = euler2quaternion(euler)
 
 roll = euler(1); pitch = euler(2); yaw = euler(3);
